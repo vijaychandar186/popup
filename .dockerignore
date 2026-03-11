@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------------------
+# PopUp Wellness Monitor — .dockerignore
+# ---------------------------------------------------------------------------
+
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / build artefacts
+dist/
+build/
+*.egg-info/
+*.egg
+*.so
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor / OS artefacts
+.vscode/
+.idea/
+.ropeproject/
+*.DS_Store
+Thumbs.db
+*.swp
+
+# Docker files themselves (not needed inside image)
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Docs & CI
+*.md
+.github/
+docs/
+
+# Test artefacts (source is included; only artefacts excluded)
+htmlcov/
+.coverage
+coverage.xml
+.tox/

@@ -1,0 +1,19 @@
+# PopUp Wellness Monitor — Python dependencies
+# Cross-platform (Windows, macOS, Linux)
+# Install: pip install -r requirements.txt
+
+# Computer vision & face detection
+opencv-python>=4.10.0.84
+mediapipe>=0.10.32
+
+# System interaction
+pyautogui>=0.9.54
+screen-brightness-control>=0.23.0
+
+# Testing
+# pytest>=8.0.0
+
+# Core numerical / image processing
+numpy>=2.2.0
+Pillow>=11.0.0
+protobuf>=5.29.0
